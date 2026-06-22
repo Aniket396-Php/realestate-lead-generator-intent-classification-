@@ -1,0 +1,76 @@
+{
+    "company_name": "Property Doors",
+    "tagline": "Empower Your Real Estate Business",
+    "website": "https://www.propertybrix.com/en-new/",
+    "phone": "+91 98765 43210",
+    "email": "support@propertybrix.com",
+    "working_hours": "Mon-Sat, 9AM - 7PM IST",
+    "locations": [
+        "Mumbai",
+        "Pune",
+        "Bangalore",
+        "Hyderabad",
+        "Delhi",
+        "Ahmedabad",
+        "Chennai",
+        "Noida"
+    ],
+    "property_types": [
+        "Apartment",
+        "Villa",
+        "Plot",
+        "Commercial",
+        "Studio",
+        "Penthouse"
+    ],
+    "faqs": [
+        {
+            "question": "What is Property Doors?",
+            "answer": "Property Doors is a premium real estate platform that empowers buyers, sellers, and agents to streamline property transactions. We offer a curated marketplace of residential and commercial properties across major Indian cities, with AI-powered search and expert guidance."
+        },
+        {
+            "question": "How do I search for properties?",
+            "answer": "You can search by typing your requirement in plain language, e.g. '2BHK flat under â‚¹80L in Pune'. You can also filter by location, budget, property type, bedrooms, and possession status on our Properties page."
+        },
+        {
+            "question": "Are the listings verified?",
+            "answer": "Yes. All listings on Property Doors are verified by our team. We conduct physical and document verification to ensure buyers get accurate information and no fraudulent listings."
+        },
+        {
+            "question": "What are the charges for listing a property?",
+            "answer": "Listing your property on Property Doors is FREE for individual sellers. Premium listing plans with more visibility and featured placement are available starting at â‚¹999/month."
+        },
+        {
+            "question": "Do you provide home loan assistance?",
+            "answer": "Yes! We have partnerships with 12+ leading banks and NBFCs including SBI, HDFC, ICICI, and Axis Bank. Our loan advisors can help you get pre-approved and find the best interest rates for your budget."
+        },
+        {
+            "question": "How do I schedule a site visit?",
+            "answer": "You can schedule a site visit directly from any property listing page by clicking 'Schedule Visit'. Alternatively, contact our support team at +91 98765 43210 or support@propertybrix.com."
+        },
+        {
+            "question": "What is RERA and are your projects RERA registered?",
+            "answer": "RERA (Real Estate Regulatory Authority) ensures transparency and accountability in real estate. All new projects on Property Doors are RERA registered. You can find the RERA number on every project listing page."
+        },
+        {
+            "question": "Can I sell my property on Property Doors?",
+            "answer": "Absolutely! Simply register as a seller on our website, fill in your property details, upload photos, and our team will verify and publish your listing. You'll get lead notifications directly to your account."
+        },
+        {
+            "question": "Do you have properties in Tier 2 cities?",
+            "answer": "Yes, we are expanding rapidly. Currently we have listings in Mumbai, Pune, Bangalore, Hyderabad, Delhi, Ahmedabad, Chennai, and Noida. Tier 2 cities like Nashik, Surat, and Jaipur are coming soon!"
+        },
+        {
+            "question": "How long does the property registration process take?",
+            "answer": "The registration process typically takes 7-14 business days after all documents are submitted. Property Doors provides end-to-end documentation support to make the process as smooth as possible."
+        },
+        {
+            "question": "What documents are needed to buy a property?",
+            "answer": "Typically you need: Aadhaar Card, PAN Card, Income Proof (salary slips or ITR), Bank Statements (last 6 months), and Passport-size Photos. Our team will guide you through the exact checklist based on the property."
+        },
+        {
+            "question": "Do you charge any brokerage?",
+            "answer": "Property Doors charges a nominal service fee of 1% of the property value (capped at â‚¹1.5L) for transaction assistance. Direct buyer-seller deals with no agent involvement are fully transparent."
+        }
+    ]
+}

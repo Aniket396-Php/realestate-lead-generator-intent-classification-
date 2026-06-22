@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | Property Doors</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Manrope', sans-serif;
+            background: #f8fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .auth-card {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+            color: #1e293b;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        p.subtitle {
+            color: #64748b;
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            font-weight: 600;
+            color: #475569;
+            margin-bottom: 6px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1.5px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 14px;
+            box-sizing: border-box;
+            transition: border-color 0.2s;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #4ade80;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: #4ade80;
+            color: black;
+            border: none;
+            border-radius: 8px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: transform 0.2s;
+        }
+
+        button:active {
+            transform: scale(0.98);
+        }
+
+        .error {
+            color: #ef4444;
+            font-size: 13px;
+            margin-top: 10px;
+            text-align: center;
+            display: none;
+        }
+
+        .success {
+            color: #16a34a;
+            font-size: 13px;
+            margin-top: 10px;
+            text-align: center;
+            display: none;
+        }
+
+        .footer-links {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        .footer-links a {
+            color: #4ade80;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="auth-card">
+        <h1>Create Account</h1>
+        <p class="subtitle">Join Property Doors to start browsing.</p>
+
+        <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" id="name" placeholder="John Doe">
+        </div>
+
+        <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" id="email" placeholder="you@example.com">
+        </div>
+
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Min. 6 characters">
+        </div>
+
+        <button id="signupBtn">Sign Up</button>
+        <div id="errorMessage" class="error"></div>
+        <div id="successMessage" class="success">Verification email sent! Please check your inbox.</div>
+
+        <div class="footer-links">
+            Already have an account? <a href="login.html">Log In</a>
+        </div>
+    </div>
+
+    <script>
+        const SUPABASE_URL = "https://snzfbrdpojjidkkqqeyb.supabase.co";
+        const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNuemZicmRwb2pqaWRra3FxZXliIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMzOTAxMTEsImV4cCI6MjA4ODk2NjExMX0.1PdfRNn8JhpiIjcUiBL3v0OmYoaClTRCGf3w7LRg8S0";
+        const sbClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+        const signupBtn = document.getElementById('signupBtn');
+        const emailInput = document.getElementById('email');
+        const passwordInput = document.getElementById('password');
+        const nameInput = document.getElementById('name');
+        const errorMsg = document.getElementById('errorMessage');
+        const successMsg = document.getElementById('successMessage');
+
+        signupBtn.addEventListener('click', async () => {
+            signupBtn.innerText = "Creating...";
+            signupBtn.disabled = true;
+            errorMsg.style.display = 'none';
+
+            const { data, error } = await sbClient.auth.signUp({
+                email: emailInput.value,
+                password: passwordInput.value,
+                options: {
+                    data: {
+                        name: nameInput.value
+                    }
+                }
+            });
+
+            if (error) {
+                errorMsg.innerText = error.message;
+                errorMsg.style.display = 'block';
+                signupBtn.innerText = "Sign Up";
+                signupBtn.disabled = false;
+            } else {
+                successMsg.style.display = 'block';
+                signupBtn.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>

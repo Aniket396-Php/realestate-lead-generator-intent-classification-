@@ -1,0 +1,233 @@
+[
+  {
+    "user_id": "test-user-123",
+    "name": "Test User",
+    "email": "test@example.com",
+    "phone": "9876543210",
+    "session_id": "sess_pkw2abz76n",
+    "intent": "HIGH_INTENT",
+    "confidence": 0.95,
+    "reason": "The user has navigated to the property search page, viewed multiple properties, and has spent a significant amount of time on the site, indicating a strong purchase intent.",
+    "timestamp": "2026-03-12T13:28:52.462122Z"
+  },
+  {
+    "user_id": "test-user-123",
+    "name": "Test User",
+    "email": "test@example.com",
+    "phone": "9876543210",
+    "session_id": "sess_rnpaxtnmwy",
+    "intent": "HIGH_INTENT",
+    "confidence": 0.95,
+    "reason": "The user specifically asked for properties in a new location, viewed multiple properties, and provided a budget range, indicating a strong purchase intent.",
+    "timestamp": "2026-03-12T14:01:06.872410Z"
+  },
+  {
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "name": "Aniket Bharat Jadhav",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_afzhpsv5i4",
+    "intent": "HIGH_INTENT",
+    "confidence": 0.85,
+    "reason": "The user asked about home loan assistance and navigated to loan services, indicating a strong purchase intent.",
+    "timestamp": "2026-03-13T17:33:48.496282Z"
+  },
+  {
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "name": "Aniket Bharat Jadhav",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_d0ci38e7sqb",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.6,
+    "reason": "User is browsing and asking FAQs, but has not provided full details yet.",
+    "timestamp": "2026-03-14T07:49:02.596189Z"
+  },
+  {
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "name": "Aniket Bharat Jadhav",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_7bmj116c1md",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.7,
+    "reason": "User is showing interest by specifying the city and property type, but has not yet provided a budget or confirmed intent to buy/rent.",
+    "timestamp": "2026-03-14T13:09:48.070497Z"
+  },
+  {
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "name": "Aniket Bharat Jadhav",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_e0kfiej5kh6",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.7,
+    "reason": "User is showing interest in buying a property but has not provided full details yet.",
+    "timestamp": "2026-03-14T13:20:40.522399Z"
+  },
+  {
+    "user_id": "my-user-id",
+    "name": "Bob",
+    "email": "bob@test.com",
+    "phone": "N/A",
+    "session_id": "test-session-98",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.7,
+    "reason": "User is actively looking for a property and has provided budget and size but not the exact location. Time spent on site is short.",
+    "timestamp": "2026-03-18T05:18:28.942963Z"
+  },
+  {
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "name": "Aniket Bharat Jadhav",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_lc1f2vu244",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.7,
+    "reason": "User is actively looking to buy/rent, gave location and budget, but spent less than 10m on site.",
+    "timestamp": "2026-03-18T05:23:03.687630Z"
+  },
+  {
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "name": "Aniket Bharat Jadhav",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_gjukwi9oqeq",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.7,
+    "reason": "User is showing interest in renting a property in Chennai but has not provided a budget or mentioned a specific property they are interested in.",
+    "timestamp": "2026-03-18T05:43:25.776480Z"
+  },
+  {
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "name": "Aniket Bharat Jadhav",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_pbd7ghj9vj",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.7,
+    "reason": "User is showing interest in buying a property but has not provided full details yet.",
+    "timestamp": "2026-03-18T05:44:29.677021Z"
+  },
+  {
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "name": "Aniket Bharat Jadhav",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_6jryv9bti4n",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.8,
+    "reason": "User is actively looking for a villa in Bangalore but has not yet provided a budget or location. Time spent on site is moderate.",
+    "timestamp": "2026-03-18T05:59:16.081300Z"
+  },
+  {
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "name": "Aniket Bharat Jadhav",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_xujty6p2qep",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.9,
+    "reason": "The user has specified their intent to buy a property, completed a property search, and viewed properties, indicating a focused and intent-driven behavior.",
+    "timestamp": "2026-03-18T08:10:50.154359Z"
+  },
+  {
+    "user_id": "67410f63-2cf8-4e3e-b3aa-e00c0c45e151",
+    "name": "Anniii ",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_lpmtfkbkbni",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.85,
+    "reason": "The user has started a property search by specifying they want to rent a '3 BHK' in Chennai and providing a budget range of '50L-80L'. They have not yet expressed urgency or intent for booking but are actively searching.",
+    "timestamp": "2026-03-19T09:56:06.902657Z"
+  },
+  {
+    "user_id": "67410f63-2cf8-4e3e-b3aa-e00c0c45e151",
+    "name": "Anniii ",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_lpmtfkbkbni",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.85,
+    "reason": "The user has started a property search by specifying they want to rent a '3 BHK' in Chennai and providing their budget range of '50L-80L'. They have not yet expressed urgency or intent for booking but are actively searching. The time on site is relatively long, indicating engagement with the process.",
+    "timestamp": "2026-03-19T09:56:38.469413Z"
+  },
+  {
+    "user_id": "67410f63-2cf8-4e3e-b3aa-e00c0c45e151",
+    "name": "Anniii ",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_42xmlgz3pve",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.85,
+    "reason": "The user has started a property search by specifying they want to rent a plot in Bangalore and providing their budget range of 50L-80L but hasn't yet expressed urgency or intent for booking.",
+    "timestamp": "2026-03-19T10:03:20.942443Z"
+  },
+  {
+    "user_id": "67410f63-2cf8-4e3e-b3aa-e00c0c45e151",
+    "name": "Anniii ",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_0wjtr03ucu",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.85,
+    "reason": "The user has started a property search by specifying they want to rent an office in Delhi and providing their budget range of 30L-50L but hasn't yet expressed urgency or intent for booking.",
+    "timestamp": "2026-03-19T10:42:35.350345Z"
+  },
+  {
+    "user_id": "67410f63-2cf8-4e3e-b3aa-e00c0c45e151",
+    "name": "Anniii ",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_67bz2t4vnem",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.85,
+    "reason": "The user has started the property buying process by specifying they want to buy a property and providing location (Chennai) and type of property sought (3 BHK). However, while budget range is provided (30L-50L), there's no indication yet that this leads directly towards booking or urgency. The user has not completed the search funnel as they have viewed 0 properties.",
+    "timestamp": "2026-03-23T06:33:12.423077Z"
+  },
+  {
+    "user_id": "test-fix-1",
+    "name": "Guest",
+    "email": "test@propertybrix.com",
+    "phone": "N/A",
+    "session_id": "sess_regression_test_002",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.65,
+    "reason": "The user has initiated a property search by selecting 'Rent Property' but hasn’t provided specific criteria such as location or budget yet.",
+    "timestamp": "2026-06-11T09:29:05.000044Z"
+  },
+  {
+    "user_id": "36cc195a-92c6-4b8c-823a-c2417791916c",
+    "name": "Aniket Bharat Jadhav",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_nm6alsetu2",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.65,
+    "reason": "The user has started the property search process by specifying a budget and type but hasn't provided location details yet.",
+    "timestamp": "2026-06-18T03:59:07.121317Z"
+  },
+  {
+    "user_id": "49d5b0d0-ef4a-4a02-a462-e1f7c02ca35f",
+    "name": "aniket jadhav JADHAV",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_e02zrxapd5",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.85,
+    "reason": "The user has started a property search by specifying they want to rent an office in Delhi and providing their budget range but hasn't expressed urgency or intent for booking.",
+    "timestamp": "2026-06-18T07:01:25.396291Z"
+  },
+  {
+    "user_id": "49d5b0d0-ef4a-4a02-a462-e1f7c02ca35f",
+    "name": "aniket jadhav JADHAV",
+    "email": "aniketjadhav396396@gmail.com",
+    "phone": "N/A",
+    "session_id": "sess_92914b9zeoh",
+    "intent": "NORMAL_LEAD",
+    "confidence": 0.85,
+    "reason": "The user has started the property search process by specifying a location and type but hasn't yet provided budget details or expressed urgency.",
+    "timestamp": "2026-06-18T07:11:11.597630Z"
+  }
+]

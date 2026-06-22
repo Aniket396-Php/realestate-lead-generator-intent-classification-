@@ -1,0 +1,444 @@
+[
+  {
+    "enquiry_id": "enq_b1f20b05",
+    "user_id": "user_api_123",
+    "customer": {
+      "name": "API Tester",
+      "email": "test@propertybrix.com",
+      "phone": "9988776655"
+    },
+    "property_id": "PB002",
+    "enquiry_message": "Is this still available for a site visit?",
+    "status": "pending_notification",
+    "timestamp": "2026-03-06T19:25:43.920763Z"
+  },
+  {
+    "enquiry_id": "enq_3abfcb1c",
+    "user_id": "test-user-123",
+    "customer": {
+      "name": "Test User",
+      "email": "test@example.com",
+      "phone": "9876543210"
+    },
+    "property_id": "PB004",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-10T11:06:27.588177Z"
+  },
+  {
+    "enquiry_id": "enq_61337bda",
+    "user_id": "test-user-123",
+    "customer": {
+      "name": "Test User",
+      "email": "test@example.com",
+      "phone": "9876543210"
+    },
+    "property_id": "PB396",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-12T12:30:30.074049Z"
+  },
+  {
+    "enquiry_id": "enq_5e27fb1d",
+    "user_id": "test-user-123",
+    "customer": {
+      "name": "Test User",
+      "email": "test@example.com",
+      "phone": "9876543210"
+    },
+    "property_id": "PB314",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-12T12:30:34.908706Z"
+  },
+  {
+    "enquiry_id": "enq_126a3595",
+    "user_id": "test-user-123",
+    "customer": {
+      "name": "Test User",
+      "email": "test@example.com",
+      "phone": "9876543210"
+    },
+    "property_id": "PB424",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-12T14:05:38.116204Z"
+  },
+  {
+    "enquiry_id": "enq_23098906",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "07b2e77c-f70e-4d68-8fff-d55c8ecf58fc",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-13T17:29:05.885015Z"
+  },
+  {
+    "enquiry_id": "enq_12f88ae5",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "9a075938-c25f-416c-9902-169b5b0d40dc",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-14T04:02:25.999460Z"
+  },
+  {
+    "enquiry_id": "enq_6ced4e32",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "e16de58f-e082-471c-854a-3a6628500541",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-14T07:44:42.496251Z"
+  },
+  {
+    "enquiry_id": "enq_e0690589",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "1ad9a688-e57c-43d6-aad7-c9c964b25e79",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-18T05:22:08.289748Z"
+  },
+  {
+    "enquiry_id": "enq_f8e843e0",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "39169d13-1b41-4e2f-bc22-33a5feb8930a",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-18T05:22:12.102360Z"
+  },
+  {
+    "enquiry_id": "enq_1d78adf4",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "9e713305-c35c-4e13-8d52-815e28e8fcb7",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-18T05:22:14.214279Z"
+  },
+  {
+    "enquiry_id": "enq_66102fed",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "a89cc0bb-d404-4d37-865b-cb43e1074577",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-18T05:42:05.113513Z"
+  },
+  {
+    "enquiry_id": "enq_bae1afbf",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "344888f1-3115-4299-adcc-699b1a4814f1",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-18T05:42:06.863196Z"
+  },
+  {
+    "enquiry_id": "enq_bd60e8af",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "e81a06b6-68e5-46a3-a225-0d7693c9c57c",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-18T05:43:13.776847Z"
+  },
+  {
+    "enquiry_id": "enq_a31d8339",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "2665bc8a-1816-4408-921f-01957da44122",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-18T05:43:15.827931Z"
+  },
+  {
+    "enquiry_id": "enq_537ceb36",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "fd7fb258-d1da-4f4a-ae3b-3cf9c3004b67",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-18T05:56:48.764576Z"
+  },
+  {
+    "enquiry_id": "enq_16b0012e",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "b4267898-f442-4810-a782-81c6cad998de",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-18T05:56:51.177336Z"
+  },
+  {
+    "enquiry_id": "enq_f2f8d7a2",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "e16de58f-e082-471c-854a-3a6628500541",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-18T05:57:39.990893Z"
+  },
+  {
+    "enquiry_id": "enq_7fdcf41e",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "a889dd52-fed5-4f92-b2a6-0c557fba0e83",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-18T08:09:25.384220Z"
+  },
+  {
+    "enquiry_id": "enq_f32fd706",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "8a7e5dc9-3ef1-48c9-9e2e-d6c5171abd09",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-18T08:15:42.089004Z"
+  },
+  {
+    "enquiry_id": "enq_397c0df2",
+    "user_id": "cebf42e6-f90e-4070-8333-e631a56d6bb1",
+    "customer": {
+      "name": "Aniket Bharat Jadhav",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "2cfda332-2acb-4076-b862-0ef6c08673e4",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-03-18T08:15:43.418341Z"
+  },
+  {
+    "enquiry_id": "enq_fef87da4",
+    "user_id": "49d5b0d0-ef4a-4a02-a462-e1f7c02ca35f",
+    "customer": {
+      "name": "aniket jadhav JADHAV",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "2eecd650-bbf7-4d7f-8fa1-f9a14bd7721f",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-06-18T11:11:38.640722Z"
+  },
+  {
+    "enquiry_id": "enq_04ff5ec6",
+    "user_id": "49d5b0d0-ef4a-4a02-a462-e1f7c02ca35f",
+    "customer": {
+      "name": "aniket jadhav JADHAV",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "f3576675-5718-4c11-9839-f7d9073cff98",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-06-18T11:15:37.298136Z"
+  },
+  {
+    "enquiry_id": "enq_9946313c",
+    "user_id": "49d5b0d0-ef4a-4a02-a462-e1f7c02ca35f",
+    "customer": {
+      "name": "aniket jadhav JADHAV",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "9ace7b8d-324d-4194-83b9-6cecf5d25d98",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-06-18T11:18:47.265036Z"
+  },
+  {
+    "enquiry_id": "enq_f787c3a1",
+    "user_id": "guest_sess_ed3vl5ps5mh",
+    "customer": {
+      "name": "Guest",
+      "email": "guest_sess_ed3vl5ps5mh@propertydoors.local",
+      "phone": "N/A"
+    },
+    "property_id": "df056315-4474-4139-a372-2808cb3ca004",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-06-18T17:54:16.043796Z"
+  },
+  {
+    "enquiry_id": "enq_4796ada5",
+    "user_id": "49d5b0d0-ef4a-4a02-a462-e1f7c02ca35f",
+    "customer": {
+      "name": "aniket jadhav JADHAV",
+      "email": "aniketjadhav396396@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "2eecd650-bbf7-4d7f-8fa1-f9a14bd7721f",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-06-18T18:28:14.979555Z"
+  },
+  {
+    "enquiry_id": "enq_531b6709",
+    "user_id": "13eb545a-47bb-441a-ad29-f0643c678b61",
+    "customer": {
+      "name": "Anuu jadhav",
+      "email": "sonujadhav396693@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "541e6014-9488-4523-a6e7-3b891261343c",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-06-20T07:11:36.554937Z"
+  },
+  {
+    "enquiry_id": "enq_85b8a18c",
+    "user_id": "13eb545a-47bb-441a-ad29-f0643c678b61",
+    "customer": {
+      "name": "Anuu jadhav",
+      "email": "sonujadhav396693@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "6a91254d-f99e-44eb-af12-965f88303e18",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-06-20T07:12:40.856423Z"
+  },
+  {
+    "enquiry_id": "enq_8084d4a2",
+    "user_id": "13eb545a-47bb-441a-ad29-f0643c678b61",
+    "customer": {
+      "name": "Anuu jadhav",
+      "email": "sonujadhav396693@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "541e6014-9488-4523-a6e7-3b891261343c",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-06-20T07:29:04.379705Z"
+  },
+  {
+    "enquiry_id": "enq_2b61f6fd",
+    "user_id": "13eb545a-47bb-441a-ad29-f0643c678b61",
+    "customer": {
+      "name": "Anuu jadhav",
+      "email": "sonujadhav396693@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "16a5d559-631b-492a-9ced-ff6856d1aa03",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-06-20T07:41:35.479410Z"
+  },
+  {
+    "enquiry_id": "enq_187f953f",
+    "user_id": "13eb545a-47bb-441a-ad29-f0643c678b61",
+    "customer": {
+      "name": "Anuu jadhav",
+      "email": "sonujadhav396693@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "df056315-4474-4139-a372-2808cb3ca004",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-06-20T07:51:23.870206Z"
+  },
+  {
+    "enquiry_id": "enq_64689829",
+    "user_id": "13eb545a-47bb-441a-ad29-f0643c678b61",
+    "customer": {
+      "name": "Anuu jadhav",
+      "email": "sonujadhav396693@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "16a5d559-631b-492a-9ced-ff6856d1aa03",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-06-20T07:51:47.253718Z"
+  },
+  {
+    "enquiry_id": "enq_d9d6122f",
+    "user_id": "13eb545a-47bb-441a-ad29-f0643c678b61",
+    "customer": {
+      "name": "Anuu jadhav",
+      "email": "sonujadhav396693@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "16a5d559-631b-492a-9ced-ff6856d1aa03",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-06-20T07:54:24.825945Z"
+  },
+  {
+    "enquiry_id": "enq_1e778120",
+    "user_id": "13eb545a-47bb-441a-ad29-f0643c678b61",
+    "customer": {
+      "name": "Anuu jadhav",
+      "email": "sonujadhav396693@gmail.com",
+      "phone": "Unknown"
+    },
+    "property_id": "541e6014-9488-4523-a6e7-3b891261343c",
+    "enquiry_message": "I am interested in this property. Please contact me.",
+    "status": "pending_notification",
+    "timestamp": "2026-06-20T17:33:58.974413Z"
+  }
+]

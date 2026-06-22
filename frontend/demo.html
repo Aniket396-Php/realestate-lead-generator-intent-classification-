@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Property Doors - AI Chatbot Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #F0F9FF 0%, #E0F2FE 50%, #F8FAFC 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Manrope', 'Segoe UI', sans-serif;
+        }
+
+        .center {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #E0F2FE;
+            color: #20c702;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 5px 16px;
+            border-radius: 20px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+        }
+
+        h1 {
+            font-size: clamp(28px, 5vw, 52px);
+            font-weight: 800;
+            color: #0f2a11;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
+            margin-bottom: 16px;
+        }
+
+        h1 span {
+            color: #0EA5E9;
+        }
+
+        p {
+            font-size: 16px;
+            color: #64748B;
+            max-width: 400px;
+            margin: 0 auto 36px;
+            line-height: 1.65;
+        }
+
+        .hint {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #fff;
+            border: 1px solid #BAE6FD;
+            border-radius: 50px;
+            padding: 12px 26px;
+            font-size: 14px;
+            color: #02c71c;
+            font-weight: 600;
+            box-shadow: 0 4px 20px rgba(14, 165, 233, 0.15);
+            animation: pulse 2.5s ease-in-out infinite;
+        }
+
+        .arrow {
+            font-size: 18px;
+            animation: bounce 1.2s ease-in-out infinite;
+            display: inline-block;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateX(0)
+            }
+
+            50% {
+                transform: translateX(6px)
+            }
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                box-shadow: 0 4px 20px rgba(14, 165, 233, 0.15)
+            }
+
+            50% {
+                box-shadow: 0 4px 30px rgba(14, 233, 65, 0.35)
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="center">
+        <div class="badge">&#127968; Property Doors AI</div>
+        <h1>Find Your <span>Dream Property</span><br>With AI Help</h1>
+        <p>Ask about properties across India, home loans, RERA, and more &ndash; in plain language.</p>
+        <div class="hint">
+            Click the green chat button &nbsp;<span class="arrow">&#8594;</span>
+        </div>
+    </div>
+
+    <div id="auth-controls" style="position: fixed; top: 20px; right: 20px; z-index: 1000; display: flex; align-items: center;">
+        <span id="user-display" style="margin-right: 15px; font-size: 14px; font-weight: 600; color: #1e293b;"></span>
+        <button id="logout-btn"
+            style="display: none; padding: 8px 16px; background: #ef4444; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600;">Logout</button>
+        <a id="login-btn" href="login.html"
+            style="display: none; padding: 8px 16px; background: #0EA5E9; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; text-decoration: none;">Login</a>
+    </div>
+
+    <!-- Supabase JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <!-- Chatbot config -->
+    <script>
+        const SUPABASE_URL = "https://snzfbrdpojjidkkqqeyb.supabase.co";
+        const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNuemZicmRwb2pqaWRra3FxZXliIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMzOTAxMTEsImV4cCI6MjA4ODk2NjExMX0.1PdfRNn8JhpiIjcUiBL3v0OmYoaClTRCGf3w7LRg8S0";
+
+        let sbClient = null;
+        try {
+            if (SUPABASE_URL !== "YOUR_SUPABASE_URL") {
+                sbClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+                window.supabase = sbClient;
+            }
+        } catch (e) {
+            console.error("Supabase init failed. Please check your URL/Key.", e);
+        }
+
+        window.CHATBOT_CONFIG = {
+            apiUrl: "http://localhost:8001",
+            primaryColor: "#4ADE80",
+            companyName: "Property Doors",
+        };
+
+        // Handle UI for logged in state
+        const userDisplay = document.getElementById('user-display');
+        const logoutBtn = document.getElementById('logout-btn');
+        const loginBtn = document.getElementById('login-btn');
+
+        if (sbClient) {
+            sbClient.auth.onAuthStateChange((event, session) => {
+                if (session) {
+                    userDisplay.innerText = `Hi, ${session.user.user_metadata.name || session.user.email}`;
+                    logoutBtn.style.display = 'inline-block';
+                    if (loginBtn) loginBtn.style.display = 'none';
+                } else {
+                    userDisplay.innerText = '';
+                    logoutBtn.style.display = 'none';
+                    if (loginBtn) loginBtn.style.display = 'inline-block';
+                }
+            });
+        }
+
+        logoutBtn.onclick = async () => {
+            if (sbClient) await sbClient.auth.signOut();
+            window.location.href = "login.html";
+        };
+    </script>
+
+    <!-- Floating chatbot widget -->
+    <script src="http://localhost:8001/widget.js?v=8" defer></script>
+</body>
+
+</html>
