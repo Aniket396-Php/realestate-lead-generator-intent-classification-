@@ -1,4 +1,4 @@
-# 🚀 Property Brix AI Chatbot (v2.0.0)
+# 🚀 Property Doors  AI Chatbot (v2.0.0)
 
 A next-generation, FastAPI-powered real estate assistant designed to bridge the gap between casual browsing and hot sales conversions. 
 
