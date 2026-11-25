@@ -8,7 +8,7 @@ Unlike standard "dumb" FAQ widgets or bloated general-purpose LLM wrappers, the 
 
 ## 🌟 What Makes This Chatbot Different? (Specialities)
 
-### 1. ⚡ Hybrid Intent Engine: Zero-Latency + Intelligent Fallbacks
+### 1. ⚡ Hybrid Intent Engine: Latency + Intelligent Fallbacks
 * **The Problem with LLMs:** Running everything through LLMs is slow, expensive, and prone to hallucination.
 * **Our Solution:** A **two-stage intent classifier**:
   * **Stage 1 (Instant):** Fast regex and keyword mapping routes common inputs (Greetings, Gratitude, Navigation queries, standard FAQs) instantly.
