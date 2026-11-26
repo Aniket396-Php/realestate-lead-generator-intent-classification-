@@ -66,12 +66,10 @@ Real estate platforms lose high-intent buyers every day to two broken chatbot pa
 ## 🎬 Demo Video
 
 <div align="center">
-  <video src="assets/Property_Doors_AI_Demo.mp4" controls width="100%">
-    <a href="assets/Property_Doors_AI_Demo.mp4">▶️ Watch Property Doors AI Demo</a>
-  </video>
+  <img src="assets/demo-preview.gif" alt="Property Doors AI Chatbot Demo" width="100%" />
 </div>
 
-> 🎥 **[Watch / Download Demo Video (`Property_Doors_AI_Demo.mp4`)](assets/Property_Doors_AI_Demo.mp4)**
+> 🎥 **[Watch Full 1080p Demo Video (`Property_Doors_AI_Demo.mp4`)](assets/Property_Doors_AI_Demo.mp4)**
 
 ---
 
